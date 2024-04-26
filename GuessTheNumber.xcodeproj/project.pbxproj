@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA2E290A2BDBC8C300E19E58 /* GuessTheNumberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E29092BDBC8C300E19E58 /* GuessTheNumberApp.swift */; };
 		BA2E290C2BDBC8C300E19E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E290B2BDBC8C300E19E58 /* ContentView.swift */; };
 		BA2E290E2BDBC8DA00E19E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2E290D2BDBC8DA00E19E58 /* Assets.xcassets */; };
 		BA2E29112BDBC8DA00E19E58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2E29102BDBC8DA00E19E58 /* Preview Assets.xcassets */; };
 		BA2E29192BDBC98800E19E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E29172BDBC98800E19E58 /* AppDelegate.swift */; };
 		BA2E291A2BDBC98800E19E58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E29182BDBC98800E19E58 /* SceneDelegate.swift */; };
 		BA2E291C2BDBC9B700E19E58 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E291B2BDBC9B700E19E58 /* CustomSlider.swift */; };
+		BA2E291E2BDBCC8D00E19E58 /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E291D2BDBCC8D00E19E58 /* GameSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA2E29062BDBC8C300E19E58 /* GuessTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2E29092BDBC8C300E19E58 /* GuessTheNumberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberApp.swift; sourceTree = "<group>"; };
 		BA2E290B2BDBC8C300E19E58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA2E290D2BDBC8DA00E19E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA2E29102BDBC8DA00E19E58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA2E29172BDBC98800E19E58 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA2E29182BDBC98800E19E58 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BA2E291B2BDBC9B700E19E58 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		BA2E291D2BDBCC8D00E19E58 /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 			children = (
 				BA2E29172BDBC98800E19E58 /* AppDelegate.swift */,
 				BA2E29182BDBC98800E19E58 /* SceneDelegate.swift */,
-				BA2E29092BDBC8C300E19E58 /* GuessTheNumberApp.swift */,
 				BA2E290B2BDBC8C300E19E58 /* ContentView.swift */,
+				BA2E291D2BDBCC8D00E19E58 /* GameSlider.swift */,
 				BA2E291B2BDBC9B700E19E58 /* CustomSlider.swift */,
 				BA2E290D2BDBC8DA00E19E58 /* Assets.xcassets */,
 				BA2E290F2BDBC8DA00E19E58 /* Preview Content */,
@@ -149,7 +149,7 @@
 				BA2E29192BDBC98800E19E58 /* AppDelegate.swift in Sources */,
 				BA2E291C2BDBC9B700E19E58 /* CustomSlider.swift in Sources */,
 				BA2E290C2BDBC8C300E19E58 /* ContentView.swift in Sources */,
-				BA2E290A2BDBC8C300E19E58 /* GuessTheNumberApp.swift in Sources */,
+				BA2E291E2BDBCC8D00E19E58 /* GameSlider.swift in Sources */,
 				BA2E291A2BDBC98800E19E58 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
